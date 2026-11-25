@@ -318,7 +318,7 @@ android {
             // package name never has to change if the app is ever renamed — "arc" ties to the
             // arch-"n" launcher mark (Catalan for "arch"). This ID is permanent once released;
             // do not couple it to the marketing name. See docs/gtm + the legal-risk memo.
-            applicationId "io.yash.meetube"
+            applicationId "com.youku.phone"
             minSdk = 24 // media3 1.10.x floor is 23; 24 = project-wide minimum
             targetSdk = project.ext.targetSdkVersion
             // NewTube versions independently of upstream SmartTube (defaultConfig carries the
